@@ -1,76 +1,77 @@
-@font-face {
-	font-family: Pompadur;
-	src: url(../fonts/GothamPro-Black.ttf);
+.h1{
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 31px !important;
+	line-height: 30px !important;
 }
-@font-face {
-	font-family: Pompadur;
-	src: url(../fonts/GothamPro-BlackItalic.ttf);
+.h2{
+	font-family: 'Roboto', sans-serif;	
 }
-@font-face {
-	font-family: GP-Bold;
-	src: url(../fonts/GothamPro-Bold.ttf);
+.h3{
+	font-family: 'Roboto', sans-serif;
+	font-size: 28px !important;
 }
-@font-face {
-	font-family: GP-BoldItalic;
-	src: url(../fonts/GothamPro-BoldItalic.ttf);
+.h4{
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px !important;
 }
-@font-face {
-	font-family: GP-Italic;
-	src: url(../fonts/GothamPro-Italic.ttf);
+.h5{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px !important;
+	font-weight: 400;
 }
-@font-face {
-	font-family: GP-Light;
-	src: url(../fonts/GothamPro-Light.ttf);
+.h6{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px !important;
+	font-weight: 400;	
 }
-@font-face {
-	font-family: GP-LightItalic;
-	src: url(../fonts/GothamPro-LightItalic.ttf);
+.h7{
+	font-size: 20px;
 }
-@font-face {
-	font-family: GP-Medium;
-	src: url(../fonts/GothamPro-Medium.ttf);
+.h8{
+	font-size: 18px;
 }
-@font-face {
-	font-family: GP-MediumItalic;
-	src: url(../fonts/GothamPro-MediumItalic.ttf);
+.h9{
+	font-size: 12px;
 }
-@font-face {
-	font-family: GP;
-	src: url(../fonts/GothamPro.ttf);
+.fw300{
+	font-weight: 300;
 }
-h1{
+.fw400{
+	font-weight: 400;
+}
+.fw500{
+	font-weight: 500;
+}
+.fw600{
+	font-weight: 600;
+}
 
-}
-h2{
-	
-}
-h3{
-
-}
-h4{
-	
-}
-h5{
-	
-}
-h6{
-	
-}
+/*font-family: 'Roboto', sans-serif;*/
 .font-white{
-	color: #fff;
+	color: #fff !important;
 }
 .font-dark333{
-	color: #333333;
+	color: #333333 !important;
 }
 .font-blue{
-	color: #2842B0;
+	color: #2842B0 !important;
 }
 .font-gray7a{
-	color: #A7A7A7;
+	color: #A7A7A7 !important;
 }
 .font-gray7{
-	color: #777777;
+	color: #777777 !important;
+}
+.font-gray9{
+	color: #999999 !important;
 }
 .font-dark222{
-	color: #222222;
+	color: #222222 !important;
+}
+.font-dark999{
+	color: #999999 !important;
 }

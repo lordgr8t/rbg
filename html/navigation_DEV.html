@@ -1,0 +1,61 @@
+<div class="deletedev">
+	<div class="container row" style="margin: 0 auto;">
+		<div class="nav_fordev col-4">
+			<span><a href="index.php">1) main</a></span>
+			<div><a href="catalog.php">2) catalog</a></div>
+			<div><a href="realitemnew.php">3) real estate item (new)</a></div>
+			<div><a href="realitemby.php">4) real estate item (not new)</a></div>
+			<div><a href="about.php">5) about compony</a></div>
+			<div><a href="staff.php">6) staff</a></div>
+			<div><a href="staffmore.php">7) staff more</a></div>
+		</div>
+		<div class="nav_fordev col-4">
+			<div><a href="serificats.php">8) serificats</a></div>
+			<div><a href="reviews.php">9) reviews</a></div>
+			<div><a href="partners.php">10) partners</a></div>			
+			<div><a href="partnersmore.php">11) partners more</a></div>
+			<div><a href="vacancies.php">12) vacancies</a></div>
+			<div><a href="stocks.php">13) stocks</a></div>
+			<div><a href="stocksmore.php">14) stocks more</a></div>
+		</div>
+		<div class="nav_fordev col-4">
+			<div><a href="info.php">15) info</a></div>
+			<div><a href="news.php">16) news</a></div>
+			<div><a href="articles.php">17) articles</a></div>
+			<div><a href="naitems.php">18) news and articles items</a></div>
+			<div><a href="map.php">19) map</a></div>
+			<div><a href="servicecatalog.php">20) service catalog</a></div>
+			<div><a href="services.php">21) services</a></div>
+			<div><a href="calc.php">22) calc</a></div>
+		</div>
+	</div>
+	<div class="tac delete_it_pls container">Скрыть меню</div>
+	<style>
+		.nav_fordev div a{
+			color: #000;
+		}
+		.nav_fordev div a{
+			color: #000;
+			text-decoration:  line-through !important;
+		}
+		.nav_fordev span a{
+			color: green;
+		}
+		.delete_it_pls{
+			background: #2842B0;
+			box-shadow: 2px 7px 50px rgba(0, 99, 176, 0.5);
+			border-radius: 2px;
+			padding: 10px 81px;
+			margin-left: 38px;
+			margin-bottom: 10px;
+			cursor: pointer;
+			width: 300px;
+			margin: 0 auto;
+		}
+	</style>
+</div>
+<script>
+	document.querySelector('.delete_it_pls').addEventListener('click', function(){
+		document.querySelector('.deletedev').style.display = "none";				
+	});
+</script>

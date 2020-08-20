@@ -1,5 +1,116 @@
-@media (max-width: 960px){
-    .header__menu-btn{
-        display: block;
-    }
-    
+@media (max-width: 992px){
+	.{
+
+	}
+}
+@media (max-width: 768px){
+	.adaptation_none{
+		display: none !important;
+	}
+	.adaptation_block{
+		display: block !important;
+	}
+	.adaptation_flex{
+		display: -webkit-flex !important;
+		display: -moz-flex !important;
+		display: -ms-flex !important;
+		display: -o-flex !important;
+		display: flex !important;
+	}
+
+	.h4{	
+		font-size: 15px !important;
+	}
+	.h5{
+		font-size: 12px !important;
+	}
+
+
+	/*main page*/	
+	.mainblock{
+		top: -700px;
+	}
+	.mainpicker{
+		margin-top: 25px;
+	}
+	.mainpicker select{
+		width: 100%;
+		display: block;
+		border-radius: 0px;
+		margin-top: 3px;
+	}
+	.mainpicker .inpprice{
+		margin-top: 3px;
+		width: 100%;
+	}
+	.mainpicker .saint{
+		margin-left: 0px;
+		width: 100%;	
+	}
+	.linktext2_a{
+		margin-top: 30px;
+	}
+	.treaplelink_bigfirst .col-5{
+		flex: 0 0 46%;
+		max-width: 46%;
+	}
+	.treaplelink_bigfirst .col-4{
+		flex: 0 0 46%;
+		max-width: 46%;
+	}
+	.treaplelink_bigfirst .col-3{
+		flex: 0 0 96%;
+		max-width: 96%;
+		margin-top: 30px;
+	}
+	.treaplelink a, .linktext .btn, .treaplelink_bigfirst a, .treaplelink_bigfirst .btn{
+		font-size: 13px;
+	}
+	.fix_a_pading{
+		padding-top: 8px;
+	}
+	.treaplelink .col{
+		padding-left: 10px !important;
+	}
+	.longpaners_2{
+		margin-top: 30px;
+	}
+	.offersgrid .col{
+		max-width: 48%;
+		flex: 0 0 48%;
+		margin-bottom: 30px;
+	}
+	.whiweblocks .col-4{
+		max-width: 48%;
+		flex: 0 0 48%;
+		margin-top: 30px !important;		
+	}
+	.general .col-4, .general .col-8{
+		max-width: 100%;
+	}
+	.general .btn{
+		width: 100% !important;
+		margin-bottom: 30px;
+	}
+	.general .border{
+		border-radius: 10px;
+	}
+	.news_main img{
+		width: 100%;
+	}
+
+	.topfoot_row .col-2{
+		flex: 0 0 46%;
+		max-width: 46%;
+	}
+}
+@media (max-width: 576px){
+	.{
+
+	}
+}
+@media (max-width: 320px){
+	.{
+
+	}
+}
