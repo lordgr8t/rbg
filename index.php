@@ -17,9 +17,9 @@
 	<link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-	<?php require_once ('html/navigation_DEV.html') ?>  
+	<!-- <?php require_once ('html/navigation_DEV.html') ?>   -->
 	<?php require_once ('html/header.html') ?>
-
+<div id="header_hide">
 	<div class="mainblock_bg" style="background-image: url(img/main.png); height: 784px;"></div>
 	<div class="container mainblock" style="height: 0">
 		<div class="h1 font-white tac">Найти недвижимость сейчас</div>
@@ -108,7 +108,7 @@
 	<div class="goodlinks">
 		<div class="container">
 			<div class="h3 font-dark333 tac whywe">Полезные ссылки</div>
-			<div class="row treaplelink ">
+			<div class="row treaplelink adaptation_none">
 				<div class="col d-flex jcsb">					
 					<div class="linktext">						
 						<div class="h4">Новостройки</div>						
@@ -137,9 +137,44 @@
 						<a href="#">Продажа ПСН</a><br>
 						<a href="#">Продажа офисов</a><br>
 						<a href="#">Помещения в ЖК</a><br>
-						<a href="#">Продажа торговых <br />помещений</a><br />						
+						<a href="#">Продажа торговых <br />помещений</a><br />
 					</div>
 					<img src="img/main/baner2.png" />
+				</div>
+			</div>
+
+			<div class="goodlinks_a adaptation_block">
+				<div class="w-100">
+					<img class="w-100" src="img/main/baner1_a.png"/>
+					<div class="wrapper">
+						<div class="h4 fw500">Новостройки</div>						
+						<a href="#">Сданные ЖК</a><br>
+						<a href="#">Строящиеся ЖК</a><br>
+						<a href="#">Новостройки в Москве</a><br>
+						<a href="#">Новостройки в МО</a><br>
+						<div class="btn tac">Акции</div>
+					</div>
+				</div>
+				<div class="w-100 mt-3">
+					<div class="wrapper" style="border-radius:10px ">
+						<div class="h4">Вторичное жилье</div>
+						<a href="#">Однокомнатные</a><br>
+						<a href="#">Двухкомнатные</a><br>
+						<a href="#">Трехкомнатные</a><br>
+						<a href="#">Комнаты и доли в квартире</a><br>
+						<div class="btn mt-2 mb-2">Найти</div>
+						<div class="btn">Обменять</div>
+					</div>
+				</div>
+				<div class="w-100 mt-3">
+					<img class="w-100" src="img/main/baner2_a.png"/>
+					<div class="wrapper">
+						<div class="h4 fw500">Коммерческая</div>
+						<a href="#">Продажа ПСН</a><br>
+						<a href="#">Продажа офисов</a><br>
+						<a href="#">Помещения в ЖК</a><br>
+						<a href="#">Продажа торговых <br />помещений</a><br />
+					</div>
 				</div>
 			</div>
 			
@@ -147,7 +182,7 @@
 				<div class="row">
 					<div class="col-5 d-flex jcsb">
 						<div class="linktext fix_a_pading">
-							<div class="h4">Услуги компании</div>							
+							<div class="h4">Услуги компании</div>
 							<a href="#">Продажа квартиры</a><br>
 							<a href="#">Оценка недвижимости</a><br>
 							<a href="#">Сопровождение сделок</a><br>
@@ -162,7 +197,7 @@
 					</div>
 					<div class="col-4 d-flex jcsb">
 						<div class="linktext">
-							<div class="h4 font-blue" style="font-weight: 500">Ипотека online</div>
+							<div class="h4 font-blue fw500">Ипотека online</div>
 							<div class="h4 font-blue">от 4.5%</div>
 							<div class="btn_blue">Оформить</div>
 						</div>
@@ -191,11 +226,17 @@
 			</div>
 			<div class="bestoffer_title">
 				<div class="h4 tac">Лучшие предложения</div>
-				<div class="bestoffer_picker d-flex jcsb">
+				<div class="bestoffer_picker d-flex jcsb adaptation_none">
 					<div class="active_offerpicker">Новостройки</div>
 					<div>Вторичное жилье</div>
 					<div>Коммерчиская недвижимость</div>
 					<div>Переуступки</div>
+				</div>
+				<div class="bestoffer_picker_a adaptation_">
+					<span class="active_offerpicker">Новостройки</span>
+					<span>Вторичное жилье</span>
+					<span>Коммерчиская недвижимость</span>
+					<span>Переуступки</span>
 				</div>
 			</div>
 			<div class="offersgrid row">
@@ -244,21 +285,21 @@
 			<div class="row whiweblocks">
 				<div class="col-4 d-flex">
 					<img src="img/main/num/01.png" />
-					<div class="ml53px">
+					<div class="ml16px">
 						<div class="title">Официальный риэлтор</div>
 						<div class="text">Официальный представитель <br />гильдии риэлторов</div>
 					</div>
 				</div>
 				<div class="col-4 d-flex">
 					<img src="img/main/num/03.png" />
-					<div class="ml53px">
+					<div class="ml16px">
 						<div class="title">Более 3-х тысяч</div>
 						<div class="text">Продано объектов недвижимости <br />за все время</div>
 					</div>
 				</div>
 				<div class="col-4 d-flex">
 					<img src="img/main/num/05.png" />
-					<div class="ml53px">
+					<div class="ml16px">
 						<div class="title">Официиальный парнер застройщиков</div>
 						<div class="text">С нами работают лидеры<br /> застройки в 2-х регионах</div>
 					</div>
@@ -266,21 +307,21 @@
 
 				<div class="col-4 d-flex mt-5">
 					<img src="img/main/num/02.png" />
-					<div class="ml53px">
+					<div class="ml16px">
 						<div class="title">Прямой партнер банков</div>
 						<div class="text">С нами работают лидеры в<br /> баковской сфере </div>
 					</div>
 				</div>
 				<div class="col-4 d-flex mt-5">
 					<img src="img/main/num/04.png" />
-					<div class="ml53px">
+					<div class="ml16px">
 						<div class="title">7 лет на рынке</div>
 						<div class="text">Уверено держимся на<br /> рынке недвижимости </div>
 					</div>
 				</div>
 				<div class="col-4 d-flex mt-5">
 					<img src="img/main/num/06.png" />
-					<div class="ml53px">
+					<div class="ml16px">
 						<div class="title">Работаем в больших регионах</div>
 						<div class="text">Присутствия в двух регионах<br /> Москва и Санкт-Петербург</div>
 					</div>
@@ -365,13 +406,13 @@
 				<div class="btn font-white">Получить скидку</div>
 			</div>
 			<div class="sofa adaptation_none">
-				<img src="img/main/sofa.png" />
+				<img class="w-100" src="img/main/sofa.png" />
 			</div>
 		</div>
 	</div>
 
 	<?php require_once ('html/footer.html') ?>	
-
+</div>
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>

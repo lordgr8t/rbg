@@ -12,7 +12,7 @@ html {
 body{
 	font-family: 'Roboto', sans-serif;
 	background: #E5E5E5;	
-	overflow-x: hidden;
+	overflow-x: hidden !important;
 }
 .container{
 	max-width: 1530px !important;
@@ -49,6 +49,13 @@ select:focus , input:focus{
 .m0auto{
 	margin: 0 auto;
 }
+.dn{
+	display: none !important;
+}
+.db{
+	display: block !important;
+}
+
 /*HTML's styles*/
 
 /*HEADER*/
@@ -156,6 +163,38 @@ select:focus , input:focus{
 }
 .header_a .help{
 	font-size: 9px;
+}
+#menu{
+	
+	animation: opacityf0t1 0.6s;
+}
+@keyframes opacityf0t1 {
+	from { opacity: 0 }
+	to { opacity: 1 }
+}
+.menu_top{	
+	height: 54px;
+	background: #2D2D2D !important;	
+}
+.menu_top .conteiner{
+	height: 54px;
+	padding: 0 15px;
+	width: 100%;
+}
+.menu_container{
+	padding: 0 15px;
+}
+.dropdown1 , .dropdown2, .dropdown3, .mb15px{
+	margin-bottom: 15px;	
+}
+.dropname1:after , .dropname2:after, .dropname3:after{
+	content: url('../img/downdark.svg');
+	margin-left: 10px;
+}
+.menu_top select option, .menu_top select{
+	color: #fff;
+	border: none !important;
+	background: #2D2D2D !important;
 }
 /*FOOTER*/
 
@@ -308,7 +347,7 @@ footer .underheader{
 /*offer item*/
 .offer_item , .freetour{
 	max-width: 353px;
-	/*max-*/height: 453px;
+	
 	background: #FFFFFF;
 	border-radius: 10px;
 }
@@ -466,6 +505,21 @@ footer .underheader{
 .goodlinks .whywe{
 	margin-top: 80px;
 }
+.goodlinks_a .wrapper a{
+	font-size: 13px;
+	color: #888888;	
+}
+.goodlinks_a .wrapper{
+	padding: 14px 15px 25px 15px;
+	background: #FFFFFF;
+	border-radius:0 0 10px 10px;
+}
+.goodlinks_a .btn{
+	color: #888888;
+	width: 100%;
+	border: 1px solid #888888;
+	border-radius: 2px;
+}
 .treaplelink .col{
 	width: 480px;
 	height: 226px;
@@ -497,7 +551,7 @@ footer .underheader{
 }
 .treaplelink_bigfirst .col-5{
 	max-width: 608px;
-	height: 225px;
+	padding-bottom: 20px;
 	background: #fff;
 	margin-right: 30px;
 	border-radius: 10px;
@@ -622,8 +676,8 @@ footer .underheader{
 .whiweblocks img{
 	max-height: 69.55px;
 }
-.ml53px{
-	margin-left: 53px;
+.ml16px{
+	margin-left: 16px;
 }
 
 .general .genimage{
@@ -674,9 +728,12 @@ footer .underheader{
 }
 .news_item{
 	max-width: 353px;
-	max-height: 494px;
+	
 	background: #fff;
 	border-radius: 10px;
+}
+.news_item img{
+	width: 100%;
 }
 .news_item .info{
 	padding: 19px 39px 11px 33px;
@@ -703,7 +760,7 @@ footer .underheader{
 }
 .offerbaner{
 	margin-top: 30px;
-	width: 97%;
+	width: 100%;
 }
 /*main page mobile*/
 .underpickercon_a .btn{
@@ -723,6 +780,9 @@ footer .underheader{
 }
 .underpickercon_a .sel{
 	max-width: 290px;
+}
+.main_patners .d-flex img{
+	width: 100%;
 }
 .main_patners_a{
 	height: 220px;
@@ -775,4 +835,10 @@ footer .underheader{
 }
 .news_main_a .slick-dots li{
 	margin: 0;
+}
+.bestoffer_picker_a .slick-next:before{
+	display: none;
+}
+.bestoffer_picker_a span{
+	width: 140px !important;
 }

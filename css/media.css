@@ -76,8 +76,8 @@
 		margin-top: 30px;
 	}
 	.offersgrid .col{
-		max-width: 48%;
-		flex: 0 0 48%;
+		max-width: 50%;
+		flex: 0 0 50%;
 		margin-bottom: 30px;
 	}
 	.whiweblocks .col-4{
@@ -103,10 +103,46 @@
 		flex: 0 0 46%;
 		max-width: 46%;
 	}
+	.offerbaner{
+		width: 97%;
+	}
 }
 @media (max-width: 576px){
-	.{
-
+	.treaplelink_bigfirst .col-5, .treaplelink_bigfirst .col-4, .treaplelink_bigfirst .col-3{
+		max-width: 100%;
+		flex: 0 0 100%;
+		margin-bottom: 30px;
+	}
+	.treaplelink_bigfirst .col-3{
+		margin-top: 0;
+	}
+	.treaplelink_bigfirst .row, .longpaners .row{
+		padding: 0 15px;
+	}
+	.longpaners .col{
+		max-width: 100%;
+		flex: 0 0 100%;
+		border-radius: 10px;
+	}
+	.freetour img{
+		width: 84%;
+		margin: 42px 20px 42px 20px;
+	}
+	.freetour .btn {
+		margin-top: 62px;
+	}
+	.freetour {
+		padding-bottom: 38px;
+	}
+	.offerbaner {
+		margin: 0 0 30px 0;
+		width: 100% !important;
+	}
+	.news_main_a .news_item{
+		max-width: 97%;
+	}
+	.news_main_a{
+		padding-left: 15px;
 	}
 }
 @media (max-width: 320px){

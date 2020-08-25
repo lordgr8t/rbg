@@ -36,9 +36,119 @@
 	<div class="whiteline"></div>
 </header>
 
-<div class="header_a adaptation_flex jcsb container">
-	<div><img src="img/menu.svg" /></div>
-	<div><img src="img/logo_a.svg" /></div>
-	<div class="font-blue help">Помогаем в подборе лучшей недвижимости</div>
-	<div><img src="img/phone_a.svg" /></div>
+<div id="header_a" class="header_a adaptation_flex jcsb container">
+	<div id="menu_op" class="adaptation_flex jcsb container">
+		<div id="menu_a"><img src="img/menu.svg" /></div>
+		<div class="logo_a"><img src="img/logo_a.svg" /></div>
+		<div class="font-blue help">Помогаем в подборе лучшей недвижимости</div>
+		<div class="phone_a"><img src="img/phone_a.svg" /></div>			
+	</div>	
 </div>
+
+
+<div id="menu" style="display: none;">
+	<div class="menu_top">
+		<div class="conteiner d-flex jcsb aic">
+			<div id="close_menu"><img src="img/close.svg"/></div>
+			<select>
+				<option class="font-white">Санкт-Петербург</option>
+				<option class="font-white">Москва</option>
+				<option class="font-white">топографический</option>
+				<option class="font-white">кретинизм</option>
+			</select>			
+		</div>
+	</div>
+	<div class="menu_container">
+		<div class="mail h4 mt-5"><span class="mr-2"><img src="img/mail_a.svg" /></span>info@rbgspb.ru</div>
+		<div class="phone h4 mt-3 mb-3"><span class="mr-2"><img src="img/phone_a2.svg" /></span>+7 (000) 000-00-00</div>
+		<hr class="mb-3" />
+
+		<div class="dropdown1">
+			<div class="dropname1" onclick="dropdown1()">Каталог недвижимости</div>
+			<div id="drop_items1" style="display: none;">
+				<a href="#">Контент</a><br/>
+				<a href="#">Контент</a><br/>
+				<a href="#">Контент</a><br/>
+				<a href="#">Контент</a>
+			</div>
+		</div>
+
+		<div class="dropdown2">
+			<div class="dropname2" onclick="dropdown2()">Услуги</div>
+			<div id="drop_items2" style="display: none;">
+				<a href="#">Контент</a><br/>
+				<a href="#">Контент</a><br/>
+				<a href="#">Контент</a><br/>
+				<a href="#">Контент</a>
+			</div>
+		</div>
+		<a class="mb15px db" href="#">Акции</a>
+		<a class="mb15px db" href="#">Ипотечный калькулятор</a>
+		<a class="mb15px db" href="#">Выписка из ЕГРН</a>
+		<a class="mb15px db" href="#">Полезная информация</a>
+		<a class="mb15px db" href="#">Контакты</a>
+		<hr class="mb15px" />
+		<div class="dropdown3">
+			<div class="dropname3" onclick="dropdown3()">О компании</div>
+			<div id="drop_items3" style="display: none;">
+				<a href="#">Сотрудники</a><br/>
+				<a href="#">Награды и сертификаты</a><br/>
+				<a href="#">Отзывы</a><br/>
+				<a href="#">Партнеры</a><br/>
+				<a href="#">Вакансии</a><br/>
+				<a href="#">Новости</a><br/>
+				<a href="#">Статьи</a><br/>
+				<a href="#">Акции</a><br/>
+				<a href="#">Полезная информация</a>
+			</div>
+		</div>
+		<a class="mb15px db" href="#">Статьи</a>
+		<a class="mb15px db" href="#">Новости</a>
+		<a class="mb15px db" href="#">Вопрос-ответ</a>
+
+	</div>
+</div>
+
+
+<script>
+	document.querySelector('#menu_a').addEventListener('click', function(){		
+		document.querySelector('#header_hide').style.display = "none";
+		document.querySelector('.header_a').style.display = 'none'; 		
+		document.querySelector('#menu').style.display = "block";
+		document.getElementById('header_a').classList.add('dn');
+		document.getElementById('header_a').classList.remove('adaptation_flex');
+
+	});
+	document.querySelector('#close_menu').addEventListener('click', function(){		
+		document.querySelector('#menu').style.display = "none";
+		document.querySelector('#header_hide').style.display = "block";	
+		document.querySelector('.header_a').style.display = 'block'; 
+		document.getElementById('header_a').classList.remove('dn');
+		document.getElementById('header_a').classList.add('adaptation_flex');
+	});
+	
+	function dropdown1() {
+		var x = document.getElementById("drop_items1");
+		if (x.style.display === "none") {
+			x.style.display = "block";
+		} else {
+			x.style.display = "none";
+		}
+	}
+	function dropdown2() {
+		var x = document.getElementById("drop_items2");
+		if (x.style.display === "none") {
+			x.style.display = "block";
+		} else {
+			x.style.display = "none";
+		}
+	}
+	function dropdown3() {
+		var x = document.getElementById("drop_items3");
+		if (x.style.display === "none") {
+			x.style.display = "block";
+		} else {
+			x.style.display = "none";
+		}
+	}
+</script>

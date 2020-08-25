@@ -58,6 +58,12 @@ $(document).ready(function(){
 		slidesToScroll: 2,
 		dots: true
 	});
+	$('.bestoffer_picker_a').slick({
+		infinite: true,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		dots: false
+	});
 });
 
 
